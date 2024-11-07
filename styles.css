@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url('resto-min.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .invitation-container {
+    background-color: rgba(0, 0, 0, 0.503);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .invitation-text h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .invitation-text p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 5px 0;
+  }
+  
+  .participation-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #4b2800;
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .invitation-text h1 {
+      font-size: 1.8em;
+    }
+  
+    .invitation-text p {
+      font-size: 0.9em;
+    }
+  
+    .participation-button {
+      padding: 10px 20px;
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .invitation-container {
+      padding: 15px;
+    }
+  
+    .invitation-text h1 {
+      font-size: 1.5em;
+    }
+  
+    .invitation-text p {
+      font-size: 0.8em;
+    }
+  
+    .participation-button {
+      padding: 8px 15px;
+      font-size: 0.8em;
+    }
+  }
+  
